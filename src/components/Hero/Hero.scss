@@ -1,0 +1,64 @@
+@use '../../partials/partial' as *;
+
+.hero {
+  display: flex;
+  margin: auto;
+  flex-direction: column;
+
+  // max-width: 30rem;
+  // align-items: center;
+  &__img {
+    // background-image: url("../../assets/pablo-merchan-montes-SCbq6uKCyMY-unsplash.jpg");
+    // display: block;
+    // height: 18rem;
+    // max-width: 100%;
+    // // margin: auto;
+    // position: absolute;
+    // background-position: center;
+    // background-size: cover;
+    // background-repeat: no-repeat;
+
+    width: 100%;
+    position: absolute;
+    top: 1;
+    left: 0;
+  }
+
+  &__content {
+    // z-index: 10;
+    // position: relative;
+    // display: flex;
+    // flex-direction: column;
+    // justify-content: center;
+    // align-items: center;
+    margin-top: 26rem;
+    // position: fixed;
+    // position: relative;
+    // margin: auto;
+    // top: auto;
+    // left: auto;
+    // right: auto;
+    // position: fixed;
+    text-align: center;
+    transform: translateY(0);
+  }
+
+  &__text {
+    font-size: 14px;
+    color: #2c2723;
+    letter-spacing: 0.1rem;
+    margin-bottom: 1rem;
+  }
+  &__button {
+    background-color: #686868;
+    font-weight: 700;
+    color: #fff;
+    width: auto;
+    display: inline-block;
+    padding: 15px 20px;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    font-size: 14px;
+  }
+}
