@@ -12,22 +12,22 @@ function Gallery() {
       <div className="gallery-wrap">
       
       <div className="gallery__images">
-      <img src={img1} alt=''></img>
+      <img className="gallery-img1" src={img1} alt=''></img>
       <div className="gallery__text">LIVRARI</div>
       </div>
       
       <div className="gallery__images">
-      <img src={img2} alt=''></img>
+      <img className="gallery-img2" src={img2} alt=''></img>
       <div className="gallery__text">COFFEE BOX</div>
       </div>
       
       <div className="gallery__images">
-      <img src={img3} alt=''></img>
+      <img className="gallery-img3" src={img3} alt=''></img>
       <div className="gallery__text">DESCARCA RETETE</div>
       </div>
       
       <div className="gallery__images">
-      <img src={img4} alt=''></img>
+      <img className="gallery-img4" src={img4} alt=''></img>
       <div className="gallery__text">CAFEA PENTRU ACASA</div>
       </div>
 
