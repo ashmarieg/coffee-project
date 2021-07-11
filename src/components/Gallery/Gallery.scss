@@ -2,13 +2,23 @@
 
 .gallery {
   display: flex;
-  max-width: 28.87rem;
+  max-width: 28.1rem;
   margin: auto;
+
+  @include tablet {
+    max-width: 48rem;
+    margin: auto;
+  }
 
   &__images img {
     height: 14.45rem;
-    width: 28.87rem;
+    width: 28.1rem;
     object-fit: cover;
+
+    @include tablet {
+      height: 191px;
+      width: 382px;
+    }
   }
   &__images {
     display: flex;

@@ -9,7 +9,7 @@ function Gallery() {
   return (
     <div className="gallery">
 
-      <div>
+      <div className="gallery-wrap">
       
       <div className="gallery__images">
       <img src={img1} alt=''></img>

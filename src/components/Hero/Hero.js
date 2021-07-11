@@ -6,7 +6,7 @@ import hero from '../../assets/pablo-merchan-montes-SCbq6uKCyMY-unsplash.jpg'
 function Hero() {
   return (
 <div className="hero">
-   <div> 
+   <div > 
   <img className="hero__img" src={hero}/>
   <div className="hero__content">
     <p className="hero__text">Never run out of coffee</p>

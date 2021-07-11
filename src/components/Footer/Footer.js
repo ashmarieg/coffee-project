@@ -23,22 +23,22 @@ function Footer() {
       </div>
 
       <div className="footer-bio">
-        <h4>FINCA SAN JOSE</h4>
+        <h4 className="footer-bio-title">FINCA SAN JOSE</h4>
         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
       </div>
 
  <hr></hr>
       <div>
       <h4>CONNECT FOR TIPS & REGULAR COFFEE TRICKS</h4>
-      <input></input>
+      <input className="footer-email" name="EMAIL" type="email" placeholder="your@email.com"></input>
  <hr></hr>
       <h4>GET SOCIAL</h4>
-      <div>
+      <div className="footer-socials">
         <FacebookIcon />
-        <TwitterIcon />
+        <TwitterIcon className="footer-twitter"/>
         <InstagramIcon />
       </div>
-  <hr></hr>
+  
 
 
       </div>

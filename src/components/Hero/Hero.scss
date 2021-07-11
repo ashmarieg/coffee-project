@@ -5,46 +5,19 @@
   margin: auto;
   flex-direction: column;
 
-  // height: 480px;
-
-  // max-width: 30rem;
-  // align-items: center;
   &__img {
-    // background-image: url("../../assets/pablo-merchan-montes-SCbq6uKCyMY-unsplash.jpg");
-    display: block;
-    // height: 18rem;
-    // max-width: 100%;
-    // // margin: auto;
-    // position: absolute;
-    // background-position: center;
-    // background-size: cover;
-    // background-repeat: no-repeat;
-
-    // width: 100%;
-    position: absolute;
-    // top: 1;
-    // left: 0;
-    height: 213px;
     width: 100%;
-    max-width: 480px;
-    height: auto;
+    height: 213px;
+    // height: auto;
+    object-fit: cover;
+
+    @include tablet {
+      // height: 250px;
+    }
   }
 
   &__content {
-    // z-index: 10;
-    // position: relative;
-    // display: flex;
-    // flex-direction: column;
-    // justify-content: center;
-    // align-items: center;
-    margin-top: 26rem;
-    // position: fixed;
-    // position: relative;
-    // margin: auto;
-    // top: auto;
-    // left: auto;
-    // right: auto;
-    // position: fixed;
+    margin-top: 2rem;
     text-align: center;
     transform: translateY(0);
   }
