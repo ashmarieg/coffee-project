@@ -10,6 +10,16 @@
   font-size: 14px;
   text-align: center;
   letter-spacing: 0.1em;
+
+  @include tablet {
+    // max-width: 48rem;
+    width: 48rem;
+    margin: auto;
+    flex-direction: row;
+    // vertical-align: ba;
+    // margin-left: 1.5rem;
+  }
+
   h4 {
     color: #2c2723;
   }
@@ -19,6 +29,16 @@
   &-info {
     line-height: 3rem;
     width: 80px;
+
+    @include tablet {
+      display: inline-block;
+      vertical-align: top;
+      width: 107px;
+      padding-right: 10px;
+      font-size: 14px;
+      text-align: left;
+      margin-left: 1rem;
+    }
   }
   &-bio {
     h4 {
@@ -27,13 +47,24 @@
     p {
       line-height: 1.5rem;
     }
+
+    @include tablet {
+      width: 216px;
+      text-align: left;
+      margin-right: 1.5rem;
+      margin-left: 0.96rem;
+    }
   }
 
-  hr {
+  &__mobile-divider {
     border-top: 1px solid #e5e5e5;
     margin-top: 2.1rem;
     margin-bottom: 3rem;
     width: 450px;
+
+    @include tablet {
+      display: none;
+    }
   }
 
   &-email {
@@ -49,6 +80,12 @@
     background-repeat: no-repeat;
     background-position-x: 25rem;
     background-position-y: center;
+
+    @include tablet {
+      width: 216px;
+      background-position-x: 11.7rem;
+      margin-bottom: 2rem;
+    }
   }
 
   &-socials {
@@ -57,5 +94,12 @@
   }
   &-twitter {
     margin: 0 1.5rem;
+  }
+
+  &__email-container {
+    @include tablet {
+      width: 216px;
+      margin-top: 5.5rem;
+    }
   }
 }

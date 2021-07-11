@@ -7,7 +7,7 @@ import InstagramIcon from '@material-ui/icons/Instagram';
 function Footer() {
   return (
     <div className="footer">
-<hr className="footer-divider"></hr>
+<hr className="footer__mobile-divider"></hr>
       <div className="footer-info">
         <h4>INFO</h4>
         <p>Contact</p>
@@ -24,23 +24,21 @@ function Footer() {
 
       <div className="footer-bio">
         <h4 className="footer-bio-title">FINCA SAN JOSE</h4>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.  </p>
       </div>
 
- <hr></hr>
-      <div>
+ <hr className="footer__mobile-divider"></hr>
+      <div className="footer__email-container">
       <h4>CONNECT FOR TIPS & REGULAR COFFEE TRICKS</h4>
       <input className="footer-email" name="EMAIL" type="email" placeholder="your@email.com"></input>
- <hr></hr>
+ <hr className="footer__mobile-divider"></hr>
       <h4>GET SOCIAL</h4>
       <div className="footer-socials">
         <FacebookIcon />
         <TwitterIcon className="footer-twitter"/>
         <InstagramIcon />
       </div>
-  
-
-
+      
       </div>
     </div>
   )
