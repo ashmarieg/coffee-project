@@ -55,6 +55,15 @@
       margin-left: 0.96rem;
     }
   }
+  // &__tablet-divider {
+  //   display: none;
+  //   @include tablet {
+  //     display: block;
+  //     border-top: 1px solid #e5e5e5;
+  //     width: 768px;
+  //     margin-top: 2rem;
+  //   }
+  // }
 
   &__mobile-divider {
     border-top: 1px solid #e5e5e5;

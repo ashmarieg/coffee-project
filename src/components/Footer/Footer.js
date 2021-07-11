@@ -7,6 +7,7 @@ import InstagramIcon from '@material-ui/icons/Instagram';
 function Footer() {
   return (
     <div className="footer">
+     
 <hr className="footer__mobile-divider"></hr>
       <div className="footer-info">
         <h4>INFO</h4>
