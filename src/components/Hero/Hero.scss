@@ -5,11 +5,13 @@
   margin: auto;
   flex-direction: column;
 
+  // height: 480px;
+
   // max-width: 30rem;
   // align-items: center;
   &__img {
     // background-image: url("../../assets/pablo-merchan-montes-SCbq6uKCyMY-unsplash.jpg");
-    // display: block;
+    display: block;
     // height: 18rem;
     // max-width: 100%;
     // // margin: auto;
@@ -18,10 +20,14 @@
     // background-size: cover;
     // background-repeat: no-repeat;
 
-    width: 100%;
+    // width: 100%;
     position: absolute;
-    top: 1;
-    left: 0;
+    // top: 1;
+    // left: 0;
+    height: 213px;
+    width: 100%;
+    max-width: 480px;
+    height: auto;
   }
 
   &__content {

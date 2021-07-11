@@ -2,18 +2,19 @@
 
 .gallery {
   display: flex;
-  max-width: 29rem;
+  max-width: 28.87rem;
   margin: auto;
 
   &__images img {
     height: 14.45rem;
-    width: 29rem;
+    width: 28.87rem;
     object-fit: cover;
   }
   &__images {
     display: flex;
     align-items: center;
-    flex-direction: column;
+    // flex-direction: column;
+    flex-wrap: wrap;
     margin-top: 2rem;
     position: relative;
     text-align: center;

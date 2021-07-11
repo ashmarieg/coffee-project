@@ -8,12 +8,16 @@ function Hero() {
 <div className="hero">
    <div> 
   <img className="hero__img" src={hero}/>
-  </div>
-  
   <div className="hero__content">
     <p className="hero__text">Never run out of coffee</p>
     <button className="hero__button">VISIT OUR SHOP</button>
   </div>
+  </div>
+  
+  {/* <div className="hero__content">
+    <p className="hero__text">Never run out of coffee</p>
+    <button className="hero__button">VISIT OUR SHOP</button>
+  </div> */}
 </div>
   )
 }

@@ -1,0 +1,35 @@
+@use '../../partials/partial' as *;
+
+.footer {
+  // margin-top: 4rem;
+  width: 462px;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 14px;
+  text-align: center;
+
+  h4 {
+    color: #2c2723;
+  }
+
+  p {
+    color: #adadad;
+  }
+
+  &-info {
+    line-height: 3.5rem;
+    width: 80px;
+  }
+  // &-bio {
+  // text-align: center;
+  // }
+
+  hr {
+    border-top: 1px solid #e5e5e5;
+    margin-top: 2rem;
+    margin-bottom: 3rem;
+    width: 460px;
+  }
+}
