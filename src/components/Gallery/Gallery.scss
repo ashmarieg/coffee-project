@@ -8,6 +8,9 @@
   @include tablet {
     max-width: 48rem;
   }
+  @include desktop {
+    max-width: 64rem;
+  }
 
   &__images img {
     height: 14.45rem;
@@ -17,14 +20,17 @@
     @include tablet {
       height: 191px;
       width: 382px;
-      // flex-wrap: wrap;
+    }
+    @include desktop {
+      height: 127px;
+      width: 254px;
     }
   }
   &__images {
     display: flex;
     align-items: center;
     // flex-direction: column;
-    flex-wrap: wrap;
+    // flex-wrap: wrap;
     margin-top: 2rem;
     position: relative;
     text-align: center;
@@ -48,7 +54,9 @@
     @include tablet {
       display: flex;
       flex-wrap: wrap;
-      margin-top: 2rem;
+    }
+    @include desktop {
+      flex-wrap: nowrap;
     }
   }
 
@@ -57,10 +65,17 @@
       margin-right: 0.25rem;
       margin-bottom: 0.25rem;
     }
+    @include desktop {
+      margin-bottom: 0;
+    }
   }
   &-img2 {
     @include tablet {
       margin-bottom: 0.25rem;
+    }
+    @include desktop {
+      margin-right: 0.25rem;
+      margin-bottom: 0;
     }
   }
   &-img3 {
