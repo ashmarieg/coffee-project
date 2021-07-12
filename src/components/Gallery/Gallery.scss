@@ -8,6 +8,7 @@
 
   @include tablet {
     max-width: 48rem;
+    margin-top: 0.35rem;
   }
   @include desktop {
     max-width: 64rem;

@@ -19,6 +19,7 @@
   }
 
   @include desktop {
+    height: 500px;
     width: 1024px;
   }
 
@@ -43,15 +44,16 @@
       // position: absolute;
       // top: 160px;
       // left: 295px;
-
+      margin-top: 6rem;
       display: flex;
       align-items: center;
       justify-content: center;
       flex-direction: column;
     }
     @include desktop {
-      top: 245px;
-      left: 423px;
+      // top: 245px;
+      // left: 423px;
+      margin-top: 10rem;
     }
   }
 
